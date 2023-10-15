@@ -1,13 +1,22 @@
 # First, we need to connect to the terminal
 ![image](https://github.com/AntonMatveychuk/Leo-Developer-Toolkit/assets/101927107/ce743481-5f39-4cc0-9a58-19755c2ee941)
+
 Next, we install Git Bash, paste it into the terminal, and clone the repository
+
  ` git clone https://github.com/git/git`
+
 Let's move on to installing SnarkOS
+
 `sudo apt-get update`
+
 `sudo apt-get upgrade`
+
 Here we click `Y`
+
 `sudo apt-get install`
+
 `screen -S anasayfa`
+
 Next, install Rust
 
 `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
