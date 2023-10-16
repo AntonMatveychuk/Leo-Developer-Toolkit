@@ -26,21 +26,45 @@ Next, install Rust
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 ![image](https://github.com/AntonMatveychuk/Leo-Developer-Toolkit/assets/101927107/997fe54b-2e2b-4979-973f-fcd541bdc757)
-*Next, clone the desired repository:**
-`git clone https://github.com/AleoHQ/snarkOS.git --depth 1`
+
+# Next, clone the desired repository:#
+```
+git clone https://github.com/AleoHQ/snarkOS.git --depth 1
+```
+
 Next, go to the SnarkOS directory and install Cargo
-`cd snarkOS`
-`./build_ubuntu.sh`
+```
+cd snarkOS
+```
+```
+./build_ubuntu.sh
+```
+
 After this command, the download will start, you need to wait for the process to complete, it takes 5-7 minutes
+
 ![image](https://github.com/AntonMatveychuk/Leo-Developer-Toolkit/assets/101927107/928f9106-3bc8-463a-9140-8bfd29d8fb7d)
-`source $HOME/.cargo/env`
+```
+source $HOME/.cargo/env
+```
+
 Install Cargo and wait for the installation to complete in a few minutes
-`cargo install --path .`
+```
+cargo install --path .
+```
+
 Next, we will install and configure the Leo programming language
-`cd`
-`git clone https://github.com/AleoHQ/leo`
-`cd leo`
-`cargo install --path .`
+```
+cd
+```
+```
+git clone https://github.com/AleoHQ/leo
+```
+```
+cd leo
+```
+```
+cargo install --path .
+```
 After this command, the download will start again, and you will need to wait for it to complete.
 `leo`
 ![image](https://github.com/AntonMatveychuk/Leo-Developer-Toolkit/assets/101927107/2d6896a1-51e2-4088-96d3-cdd3d879c0f5)
