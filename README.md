@@ -85,17 +85,33 @@ Where instead of "YOUR_Private_Key" you need to insert your private wallet key, 
 
 ![image](https://github.com/AntonMatveychuk/Leo-Developer-Toolkit/assets/101927107/82e1168d-ff32-4a11-b3b4-09028cded1d4)
 
-Return to the terminal and enter ```leo example```
+Return to the terminal and enter
+```
+leo example
+```
+
 ![image](https://github.com/AntonMatveychuk/Leo-Developer-Toolkit/assets/101927107/5e1a2d10-5dd2-4a71-8ae4-b7f45475e7fc)
+
 We will be given the available options, let's try tictactoe:
-`leo example tictactoe`
+```
+leo example tictactoe
+```
 The result should be as follows:
+
 ![image](https://github.com/AntonMatveychuk/Leo-Developer-Toolkit/assets/101927107/1e475b61-dfcb-4880-9354-c370e2332fcd)
+
 Next, for an illustrative example, let's run our program and see if it works, using the following command, enter the tictactoe directory:
-`cd tictactoe`
+```
+cd tictactoe
+```
+
 And we do the launch as a team:
-`leo run new`
+```
+leo run new
+```
+
 If you have the same output from the terminal, I congratulate you, you have successfully deployed the application in Aleo
+
 ![image](https://github.com/AntonMatveychuk/Leo-Developer-Toolkit/assets/101927107/72bf6959-3160-4b14-bfb2-bdc2c1634268)
 
 
