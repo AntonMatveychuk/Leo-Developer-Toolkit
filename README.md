@@ -65,15 +65,27 @@ cd leo
 ```
 cargo install --path .
 ```
+
 After this command, the download will start again, and you will need to wait for it to complete.
-`leo`
+```
+leo
+```
+
 ![image](https://github.com/AntonMatveychuk/Leo-Developer-Toolkit/assets/101927107/2d6896a1-51e2-4088-96d3-cdd3d879c0f5)
+
 We are shown what commands we can use, let's continue with creating a new wallet or importing an existing one using the following commands:
-`leo account new`
-`leo account import YOUR_Private_Key`
+```
+leo account new
+```
+```
+leo account import YOUR_Private_Key
+```
+
 Where instead of "YOUR_Private_Key" you need to insert your private wallet key, if you did everything correctly, you will get the following result:
+
 ![image](https://github.com/AntonMatveychuk/Leo-Developer-Toolkit/assets/101927107/82e1168d-ff32-4a11-b3b4-09028cded1d4)
-Return to the terminal and enter `leo example`.
+
+Return to the terminal and enter ```leo example```
 ![image](https://github.com/AntonMatveychuk/Leo-Developer-Toolkit/assets/101927107/5e1a2d10-5dd2-4a71-8ae4-b7f45475e7fc)
 We will be given the available options, let's try tictactoe:
 `leo example tictactoe`
