@@ -6,20 +6,25 @@
 git clone https://github.com/git/git
 ```
 Let's move on to installing SnarkOS
-
-`sudo apt-get update`
-
-`sudo apt-get upgrade`
+```
+sudo apt-get update
+```
+```
+sudo apt-get upgrade
+```
 
 Here we click `Y`
-
-`sudo apt-get install`
-
-`screen -S anasayfa`
+```
+sudo apt-get install
+```
+```
+screen -S anasayfa
+```
 
 Next, install Rust
-
-`curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
+```
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```
 ![image](https://github.com/AntonMatveychuk/Leo-Developer-Toolkit/assets/101927107/997fe54b-2e2b-4979-973f-fcd541bdc757)
 *Next, clone the desired repository:**
 `git clone https://github.com/AleoHQ/snarkOS.git --depth 1`
